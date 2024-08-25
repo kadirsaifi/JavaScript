@@ -4,5 +4,9 @@ var accoutnPassword = "64978523";
 
 //accountId = 123456;
 acccountEmail = "saifi@gmail.com";
+/*
+prefer not to use var
+because of issue in block Scope and function scope
+*/
 
 console.table([accountId, acccountEmail, accoutnPassword]);
