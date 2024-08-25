@@ -1,5 +1,10 @@
 "use strict"; //treat all js code as newer version
 
+let name = "Abdul";
+let age = 24;
+let login = true;
+let tiem = null;
+
 //number => 2 to power 53
 // bigInt =>
 // string => ""
