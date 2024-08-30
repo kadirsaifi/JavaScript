@@ -35,3 +35,26 @@ console.log(hero);
 const Myfunction = function () {
   console.log("Hello World");
 };
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//stack => primitive dataTypes, Heap=> Non Primitive DataTypes
+
+let myname = "abdul";
+
+let anotherName = myname;
+
+anotherName = "saifi";
+
+console.log(myname);
+console.log(anotherName);
+
+let userone = {
+  email: "saifi@gmail.com",
+  age: 28,
+};
+
+userTwo = userone;
+userTwo.email = "abdulkadir@gmail.com";
+
+console.log(userone.email);
+console.log(userTwo.email);
